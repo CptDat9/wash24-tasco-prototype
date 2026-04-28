@@ -1,16 +1,52 @@
-# React + Vite
+# 🚗 Washbox24 Tasco Prototype
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive high-fidelity prototype for **Washbox24** – an on-demand car wash platform integrated with smart lockers and valet services.  
 
-Currently, two official plugins are available:
+This project demonstrates a seamless end-to-end logistics flow between:
+- Customers
+- Shop Owners
+- Valets
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📦 Prerequisites
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+To run this project locally, ensure you have the following installed:
 
-## Expanding the ESLint configuration
+- **Node.js** (>= 22.12.0)  
+- **Package Manager**: `npm` (comes with Node) or `yarn`  
+- **Git** (to clone the repository)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Installation & Setup
+
+Follow these steps to get your development environment running:
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/CptDat9/wash24-tasco-prototype.git
+cd wash24-tasco-prototype
+``` 
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the Development Server
+- Start the app:
+```bash
+npm run dev
+```
+
+- Then open your browser at:
+```bash
+http://localhost:5173
+```
+
+## 🚀 Tech Stack
+- React (Vite)
+- Tailwind CSS
+- Lucide Icons
