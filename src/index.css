@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f1f5f9; /* Màu nền xám nhạt chuẩn iOS/Android */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Đảm bảo root chiếm toàn bộ chiều cao màn hình */
+#root {
+  min-height: 100vh;
+}
